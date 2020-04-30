@@ -5,9 +5,7 @@
 **What to be designed?**
 
 1. Pastebin like services enable users to store plain text or images over the network (typically the Internet) and generate unique URLs to access the uploaded data. 
-
 2. Such services are also used to share data over the network quickly, as users would just need to pass the URL to let other users see it.
-
 3. Try it out. Go to pastebin.com, please try creating a new ‘Paste’ there and spend some time going through the different options their service offers.
 
 **Feature Requirements**
