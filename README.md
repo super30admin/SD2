@@ -1,28 +1,29 @@
 # System Design 2
 
-**PasteBin**
+**Designing Instagram**
 
 **What to be designed?**
 
-1. Pastebin like services enable users to store plain text or images over the network (typically the Internet) and generate unique URLs to access the uploaded data. 
-2. Such services are also used to share data over the network quickly, as users would just need to pass the URL to let other users see it.
-3. Try it out. Go to pastebin.com, please try creating a new ‘Paste’ there and spend some time going through the different options their service offers.
+1. Instagram is a social networking service that allows users to upload their photos and videos and share them with other users.
+2. Users of Instagram may opt to share information either privately or publicly.
+3. Any publicly shared content can be seen by any other user, while privately shared content can be accessed only by a specified set of people.
+4. We plan to design a simpler version of Instagram for the sake of this exercise, where a user can share photos and follow other users too.
+5. For each user the 'News Feed' will consist of top photos of all the people that the user follows.
 
 **Feature Requirements**
 
 Primary Features:
 
-1. The data and links would automatically expire after a certain period of time; users should also be able to specify the expiration date.
-2. Users should be able to upload or "paste" their data, and have access to a unique URL.
-3. The users can upload text only.
-4. Users should be optionally able to choose a custom alias for the paste.
+1. Users should have the option to upload / download / view photos. 
+2. Users can perform photo / video title searches. 
+3. Other users can follow. 
+4. The system should be able to generate and display the News Feed of a user which consists of top photos from all the people that the user follows.
 
 Secondary Requirements:
 
-1. The system should be available at all times. This is necessary because the users will not be able to access their pastes if our service is down. 
-2. The system should be highly reliable, and should not lose any data uploaded. 
-3. Paste (not predictable) links should not be guessable. 
-4. With minimal latency users should be able to access their Pastes in real time. 
+1. Our service needs high availability. 
+2. Consistency can take on a hit (for availability), if a user fails to see a photo for a while; it should be fine. 
+3. The system should be highly reliable; no photo or video that is uploaded should ever be lost.
 
 **TO DO : Follow the below framweork to design System. Mandatory upload of hand drawn photos of design.**
 
