@@ -12,18 +12,6 @@
 
 **Feature Requirements**
 
-Primary Features:
-
-1. Users should have the option to upload / download / view photos. 
-2. Users can perform photo / video title searches. 
-3. Other users can follow. 
-4. The system should be able to generate and display the News Feed of a user which consists of top photos from all the people that the user follows.
-
-Secondary Requirements:
-
-1. Our service needs high availability. 
-2. Consistency can take on a hit (for availability), if a user fails to see a photo for a while; it should be fine. 
-3. The system should be highly reliable; no photo or video that is uploaded should ever be lost.
 
 **TO DO : Follow the below framweork to design System. Mandatory upload of hand drawn photos of design.**
 
